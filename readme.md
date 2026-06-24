@@ -10,10 +10,22 @@ A5-Gravitational-Waves-QNM-Fitting-CW/
 ├── data/
 │   ├── data.dat        # time-domain strain data from the black hole ringdown
 │   └── psd.dat         # power spectral density of the detector noise
+├── plots/
+│   ├── ACF.png
+│   ├── consistency.png
+│   ├── corner.png
+│   ├── fitsNresids.png
+│   ├── ImReVsChi.png
+│   ├── NoisePSD.png
+│   ├── plateau.png
+│   ├── Spectrogram.png
+│   ├── test.png
+│   └── TimeSeries.png
+├── report/
+│   └── A5_GW_Report.pdf    # The delicious report
 ├── solutions.ipynb     # main notebook: noise analysis, QNM fitting, GR consistency test
-├── plateau.png         # convergence/plateau diagnostic plot
+├── qnm_coursework.pdf  # coursework problem sheet
 ├── requirements.txt    # Python dependencies
-├── report.pdf              # The delicious report
 ├── LICENSE
 └── readme.md
 ```
